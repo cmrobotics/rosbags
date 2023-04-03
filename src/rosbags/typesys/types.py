@@ -711,10 +711,10 @@ class sensor_msgs__msg__CameraInfo:
     height: int
     width: int
     distortion_model: str
-    d: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
-    k: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
-    r: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
-    p: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
+    D: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
+    K: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
+    R: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
+    P: numpy.ndarray[Any, numpy.dtype[numpy.float64]]
     binning_x: int
     binning_y: int
     roi: sensor_msgs__msg__RegionOfInterest
@@ -2226,10 +2226,10 @@ FIELDDEFS: Typesdict = {
             ('height', (1, 'uint32')),
             ('width', (1, 'uint32')),
             ('distortion_model', (1, 'string')),
-            ('d', (4, ((1, 'float64'), None))),
-            ('k', (3, ((1, 'float64'), 9))),
-            ('r', (3, ((1, 'float64'), 9))),
-            ('p', (3, ((1, 'float64'), 12))),
+            ('D', (4, ((1, 'float64'), None))),
+            ('K', (3, ((1, 'float64'), 9))),
+            ('R', (3, ((1, 'float64'), 9))),
+            ('P', (3, ((1, 'float64'), 12))),
             ('binning_x', (1, 'uint32')),
             ('binning_y', (1, 'uint32')),
             ('roi', (2, 'sensor_msgs/msg/RegionOfInterest')),
