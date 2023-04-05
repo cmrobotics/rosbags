@@ -9,6 +9,9 @@
 .. image:: https://img.shields.io/pypi/pyversions/rosbags
    :alt: python versions
 
+**NOTE:** This is a fork of the original rosbags library, which isn't maintained. The only difference is that this fork fixes `that <https://gitlab.com/ternaris/rosbags/-/issues/52>`_ issue.
+The original library can be found at https://gitlab.com/ternaris/rosbags.
+
 =======
 Rosbags
 =======
